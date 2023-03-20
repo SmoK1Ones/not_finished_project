@@ -1,0 +1,80 @@
+@media (max-width: 1200px){
+    .menu{
+        .menu_link{
+        font-size: 13px;
+
+        }
+    }
+    .subheader {
+        .subheader_phone{
+            font-size: 18px;
+        }
+    }
+    .reason{
+        .circle_descr {
+            max-width: 300px;
+            margin-bottom: 23px;
+        }
+    } 
+    .mobile {
+        .mobile_item {
+            width: 290px;
+        }
+    }
+    .car {
+        img {
+            width: 100%;
+        }
+    }
+
+}
+
+@media (max-width: 991px) {
+    .menu{
+        .menu_item {
+            padding-right: 7px;
+            padding-left: 7px;
+        }
+        .menu_link{
+        font-size: 10px;
+
+        }
+    }
+    .subheader {
+        .subheader_phone{
+            font-size: 13px;
+        }
+    }
+    .promo {
+        .promo_btn {
+            margin-bottom: 20px;
+        }
+    }
+    .reason {
+        .col-md-6 {
+            width: 100%;
+        }
+    } 
+    .mobile {
+        padding-bottom: 30px;
+        .row {
+            max-width: 991px;
+         flex-wrap: wrap;
+        }
+    }
+
+    @media (max-width: 767px) {
+        footer {
+            img {
+                display: block;
+                position: absolute;
+                position: absolute;
+                right: 23px;
+                bottom: 18px;
+            }
+            .footer_icons {
+                
+            }
+        }
+    }
+}
